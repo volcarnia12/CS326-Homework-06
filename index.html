@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Scrabble</title>
+
+    <script type="module" src="main.js" defer></script>
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+  <body>
+    <!-- TODO -->
+    <!-- Add anything you need for your JavaScript code to work with. -->
+    <center>
+      <div id = "Board"></div>
+      <br/>
+      <form>
+        <label for="word">Word:</label>
+        <input type="text" id="word" />
+        <label for="x">x:</label>
+        <input type="number" id="x" min = "1" max = "15" step = "1"/>
+        <label for="y">y:</label>
+        <input type="number" id="y" min = "1" max = "15" step = "1"/>
+        <select id="position">
+          <option value="horizontal">Horizontal</option>
+          <option value="vertical">Vertical</option>
+        </select>
+        <INPUT TYPE="button" id = "play" value="Play!">
+        <INPUT TYPE = "button" id = "clear-state" value = "Reset">
+        <INPUT TYPE = "button" id = "help" value = "Help!">
+      </form>
+      <br />
+      <div id = "rack"></div>
+      <br />
+      <div id = "hint"></div>
+    </center>
+  </body>
+</html>

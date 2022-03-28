@@ -1,0 +1,87 @@
+/* TODO */
+/*.cell{
+    border: 1px solid black;
+    min-width: 20px;
+    max-width: 100px;
+    min-height: 20px;
+}
+
+.row{
+    border: 1px solid black;
+    max-width: 100px;
+
+}
+
+[id^="space"]{
+
+}*/
+
+#Board{
+    display: grid;
+    width: 614px;
+    height: 614px;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    gap: 1px;
+    background-color: black;
+    padding: 1px;
+}
+
+#rack {
+    display: grid;
+    width: 286px;
+    height: 40px;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px;
+    gap: 1px;
+    background-color:black;
+    padding: 1px;
+}
+  
+#rack-inner {
+    background-color: white;
+    color: black;
+}
+
+/*.Board > div[id^="space"] {
+    background-color: yellow;
+    padding: 1px;
+  }*/
+
+/*#Board {
+    display: grid;
+    grid-template-columns: repeat(15, auto);
+    grid-gap: 1px;
+    width: 103px;
+    height: 103px;
+}*/
+
+/*.grid-item {
+    height: 40px;
+    width: 40px;
+}*/
+
+
+[id^="teal"]{
+    background-color: aqua;
+    color: black;
+}
+
+[id^="red"]{
+    background-color: red;
+    color: white;
+}
+
+[id^="pink"]{
+    background-color: pink;
+    color: black;
+}
+
+[id^="blue"]{
+    background-color: blue;
+    color: white;
+}
+
+[id^="white"]{
+    background-color: white;
+    color: black;
+}
